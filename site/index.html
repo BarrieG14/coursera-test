@@ -1,66 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Simple Darts Scoring</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-    }
-
-    .container {
-      max-width: 400px;
-      margin: 0 auto;
-      padding: 20px;
-    }
-
-    .player {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-bottom: 10px;
-    }
-
-    .score-input {
-      width: 60px;
-      text-align: center;
-    }
-
-    .total-score {
-      text-align: center;
-      font-size: 24px;
-      font-weight: bold;
-    }
-  </style>
+	<title>Hello Coursera</title>
 </head>
 <body>
-  <div class="container">
-    <h1>Simple Darts Scoring</h1>
-    
-    <div class="player">
-      <span>Player 1:</span>
-      <input class="score-input" type="number" min="0" value="0">
-    </div>
-    
-    <div class="player">
-      <span>Player 2:</span>
-      <input class="score-input" type="number" min="0" value="0">
-    </div>
-    
-    <div class="total-score">Total Score: 0</div>
-
-    <button onclick="calculateTotalScore()">Calculate Total Score</button>
-  </div>
-
-  <script>
-    function calculateTotalScore() {
-      const player1Score = parseInt(document.querySelector('.player:nth-child(1) input').value);
-      const player2Score = parseInt(document.querySelector('.player:nth-child(2) input').value);
-
-      const totalScore = player1Score + player2Score;
-      document.querySelector('.total-score').textContent = `Total Score: ${totalScore}`;
-    }
-  </script>
+<h1>Hello Coursera, this course is fantastic</h1>
 </body>
 </html>
